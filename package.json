@@ -1,0 +1,16 @@
+{
+  "name": "flock-gateway",
+  "version": "0.1.0",
+  "description": "Store-and-forward gateway core for Reinnder Flock, a poultry house monitoring kit in prototype.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "author": "Reinnder Technologies (https://www.reinndertechnologies.com/)",
+  "homepage": "https://www.reinndertechnologies.com/flock",
+  "repository": { "type": "git", "url": "git+https://github.com/reinndertechnologies/flock-gateway.git" }
+}
